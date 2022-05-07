@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Celtrius Studios</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 May 2022 12:31:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<image>
+	<url>./../wp-content/uploads/2022/05/cropped-favicon-32x32.webp</url>
+	<title>Celtrius Studios</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Move Files with C# in Unity</title>
+		<link>./../2022/05/04/move-files-with-c-in-unity/index.html</link>
+		
+		<dc:creator><![CDATA[Celtrius]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 19:33:12 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=33</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. public void InstallationMoveFiles(string InstallPath) { string targetPath = Application.streamingAssetsPath + "/../../Builds/" + Path.GetFileName(InstallPath); PopUpMessage.Maininstance.Message("Warnung", "Ordner " + InstallPath + " wird zu " + targetPath + " verschoben.", "Okay"); System.IO.Directory.CreateDirectory(targetPath); if (System.IO.Directory.Exists(InstallPath)) { string[] files = System.IO.Directory.GetFiles(InstallPath); [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="33" class="elementor elementor-33">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-48b7434 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="48b7434" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cd8130d" data-id="cd8130d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0ac8224 elementor-widget elementor-widget-text-editor" data-id="0ac8224" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.6.5 - 27-04-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-aabe16a elementor-widget elementor-widget-code-block-for-elementor" data-id="aabe16a" data-element_type="widget" data-widget_type="code-block-for-elementor.default">
+				<div class="elementor-widget-container">
+			<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-cs'>    public void InstallationMoveFiles(string InstallPath)
+    {
+        string targetPath = Application.streamingAssetsPath + &quot;/../../Builds/&quot; + Path.GetFileName(InstallPath);
+
+        PopUpMessage.Maininstance.Message(&quot;Warnung&quot;, &quot;Ordner &quot; + InstallPath + &quot; wird zu &quot; + targetPath + &quot; verschoben.&quot;, &quot;Okay&quot;);
+
+
+        System.IO.Directory.CreateDirectory(targetPath);
+
+
+        if (System.IO.Directory.Exists(InstallPath))
+        {
+            string[] files = System.IO.Directory.GetFiles(InstallPath);
+
+
+            DirectoryCopy(InstallPath, targetPath, true);
+
+
+        }
+        else
+        {
+            Console.WriteLine(&quot;Source path does not exist!&quot;);
+        }
+    }</code></pre>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Hello world!</title>
+		<link>./../2022/05/04/hello-world/index.html</link>
+					<comments>./../2022/05/04/hello-world/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[Celtrius]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 14:54:25 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=1</guid>
+
+					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+										<content:encoded><![CDATA[
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/05/04/hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
